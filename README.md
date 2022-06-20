@@ -35,8 +35,8 @@ MOBILE
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GITHUB](https://github.com/mastertbal/SUNNYSIDE-AGENCY-LANDING-PAGE)
+- Live Site URL: [LIVE LINK](https://mastertbal.github.io/SUNNYSIDE-AGENCY-LANDING-PAGE/index.html)
 
 ## My process
 
