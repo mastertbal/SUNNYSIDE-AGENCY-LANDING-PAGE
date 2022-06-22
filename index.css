@@ -381,7 +381,7 @@ footer a:hover {
     /* MAIN SECTION */
     main {
         grid-template-columns: 50% 50%;
-        grid-template-rows: 60vh 50vh 50vh 50vh 50vh 60vh 60vh auto 30vh 30vh 30vh;
+        grid-template-rows: 60vh 55vh 50vh 50vh 55vh 60vh 60vh auto 30vh 30vh 30vh;
     }
 
     /* SECTION ONE */
@@ -399,8 +399,7 @@ footer a:hover {
     }
 
     .section__one h1 {
-        font-size: 2.8rem;
-        width: 98%;
+        font-size: 2.3rem;
         margin: 2.5rem auto;
     }
 
@@ -489,6 +488,7 @@ footer a:hover {
     .section__five {
         grid-column: 1 / -1;
         text-align: center;
+        background-color: rgb(247, 232, 234);
     }
     
     .section__two h1,
@@ -525,11 +525,6 @@ footer a:hover {
         display: block;
     }
     
-    .section__two,
-    .section__five {
-        background-color: rgb(247, 232, 234);
-    }
-
     /* SECTION THREE */
     .section__three {
         grid-column: 1 / -1;
