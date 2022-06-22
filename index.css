@@ -381,7 +381,7 @@ footer a:hover {
     /* MAIN SECTION */
     main {
         grid-template-columns: 50% 50%;
-        grid-template-rows: 60vh 55vh 50vh 50vh 55vh 60vh 60vh auto 30vh 30vh 30vh;
+        grid-template-rows: 60vh auto 50vh 50vh auto 60vh 60vh auto 30vh 30vh 30vh;
     }
 
     /* SECTION ONE */
