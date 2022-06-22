@@ -122,12 +122,12 @@ main {
 /* SECTION TWO AND FIVE*/
 .section__two {
     grid-column: 1 / span 2;
-    padding: 20% 10% 0 10%;
+    padding: 20% 10% 4rem 10%;
 }
 
 .section__five {
     grid-column: 3 / span 2;
-    padding: 15% 10% 0 10%;
+    padding: 15% 10% 3rem 10%;
 }
 
 .section__two,
