@@ -34,7 +34,7 @@
 main {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 100vh 28rem 28rem 28rem auto 22rem 15rem;
+    grid-template-rows: 100vh 30rem 30rem 30rem auto 22rem 15rem;
 }
 
 /* SECTION ONE */
@@ -105,7 +105,7 @@ main {
 }
 
 .section__one figure.arrow__down {
-    margin-top: 9rem;
+    margin-top: 6.5rem;
     width: 2rem;
     height: 6rem;
 }
