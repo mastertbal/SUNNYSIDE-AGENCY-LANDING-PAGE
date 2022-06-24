@@ -34,7 +34,7 @@
 main {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 100vh 70vh 70vh 70vh auto 60vh 40vh;
+    grid-template-rows: 100vh 28rem 28rem 28rem auto 22rem 15rem;
 }
 
 /* SECTION ONE */
@@ -105,7 +105,7 @@ main {
 }
 
 .section__one figure.arrow__down {
-    margin-top: 6rem;
+    margin-top: 9rem;
     width: 2rem;
     height: 6rem;
 }
@@ -122,12 +122,12 @@ main {
 /* SECTION TWO AND FIVE*/
 .section__two {
     grid-column: 1 / span 2;
-    padding: 20% 10% 4rem 10%;
+    padding: 18% 10% 4rem 10%;
 }
 
 .section__five {
     grid-column: 3 / span 2;
-    padding: 15% 10% 3rem 10%;
+    padding: 15% 10% 2rem 10%;
 }
 
 .section__two,
@@ -381,7 +381,7 @@ footer a:hover {
     /* MAIN SECTION */
     main {
         grid-template-columns: 50% 50%;
-        grid-template-rows: 60vh auto 50vh 50vh auto 60vh 60vh auto 30vh 30vh 30vh;
+        grid-template-rows: 60vh 20rem 22rem 20rem 22rem 26rem 26rem auto 15rem 15rem 15rem;
     }
 
     /* SECTION ONE */
@@ -517,7 +517,7 @@ footer a:hover {
     }
 
     .section__five a:hover {
-        color: pink;
+        color: palevioletred;
     }
     
     .section__two a,
