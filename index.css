@@ -34,7 +34,7 @@
 main {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 100vh 28rem 28rem 28rem auto 22rem 15rem;;
+    grid-template-rows: 100vh 28rem 28rem 28rem auto 22rem 15rem;
 }
 
 /* SECTION ONE */
@@ -105,7 +105,7 @@ main {
 }
 
 .section__one figure.arrow__down {
-    margin-top: 9rem;
+    margin-top: 7rem;
     width: 2rem;
     height: 6rem;
 }
@@ -191,7 +191,7 @@ main {
 .section__three, 
 .section__four {
     background-repeat: no-repeat;
-    background-size: 100% 70vh;
+    background-size: 100% 28rem;
     background-position: center;
 }
 
@@ -209,7 +209,7 @@ main {
 .section__six,
 .section__seven {
     background-repeat: no-repeat;
-    background-size: 100% 70vh;
+    background-size: 100% 28rem;
     background-position: center;
     padding: 16rem 15% 0 15%;
     text-align: center;
@@ -315,7 +315,7 @@ main {
 .section__eleven,
 .section__twelve {
     background-repeat: no-repeat;
-    background-size: 100% 60vh;
+    background-size: 100% 22rem;
     background-position: center;
 }
 
@@ -381,7 +381,7 @@ footer a:hover {
     /* MAIN SECTION */
     main {
         grid-template-columns: 50% 50%;
-        grid-template-rows: 60vh 20rem 22rem 20rem 22rem 26rem 26rem auto 15rem 15rem 15rem;
+        grid-template-rows: 27rem 20rem 22rem 20rem 22rem 26rem 26rem auto 15rem 15rem 15rem;
     }
 
     /* SECTION ONE */
@@ -389,7 +389,7 @@ footer a:hover {
         grid-column: 1 / -1;
         background-image: url('images/mobile/image-header.jpg');
         background-repeat: no-repeat;
-        background-size: 100% 60vh;
+        background-size: 100% 27rem;
         background-position: center;
         position: relative;
     }
@@ -462,7 +462,7 @@ footer a:hover {
     }
     
     .hidden li {
-        margin: 5vh auto;
+        margin: 2rem auto;
         width: 7.5rem;
         text-align: center;
         animation-name: translate-li;
@@ -489,6 +489,7 @@ footer a:hover {
         grid-column: 1 / -1;
         text-align: center;
         background-color: rgb(247, 232, 234);
+        background-size: 100% 22rem;
     }
     
     .section__two h1,
@@ -538,6 +539,11 @@ footer a:hover {
         background-image: url('images/mobile/image-stand-out.jpg');
     }
 
+    .section__three,
+    .section__four {
+        background-size: 100% 22rem;
+    }
+
     /* SECTION SIX AND SEVEN */
     .section__six {
         grid-column: 1 / -1;
@@ -552,6 +558,7 @@ footer a:hover {
     .section__six,
     .section__seven {
         padding: 15rem 15% 0 15%;
+        background-size: 100% 26rem;
     }
 
     /* SECTION EIGHT */
@@ -574,7 +581,11 @@ footer a:hover {
     }
 
     .section__eight section article figure {
-        margin: 2vh auto;
+        margin: 1.5rem auto;
+    }
+
+    .section__eight section article figure img {
+        width: 100%;
     }
 
     .section__eight section article .testimony {
@@ -582,7 +593,7 @@ footer a:hover {
     }
 
     .section__eight section article div {
-        margin: 1.5vh auto;
+        margin: 1.5rem auto;
     }
 
     /* SECTION NINE */
@@ -603,5 +614,12 @@ footer a:hover {
     /* SECTION TWELVE */
     .section__twelve {
         background-image: url('images/mobile/image-gallery-sugar-cubes.jpg');
+    }
+
+    .section__nine,
+    .section__ten,
+    .section__eleven,
+    .section__twelve {
+        background-size: 100% 15rem;
     }
 }
